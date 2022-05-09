@@ -1,2 +1,0 @@
-# webNativa
-Portfolio personal
