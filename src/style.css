@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0 0;
+  }
+  
+  body {
+    background: radial-gradient(100% 225% at 0% 0%, #DE3E3E 0%, #17115C 100%), radial-gradient(100% 225% at 100% 0%, #FF9040 0%, #FF0000 100%), linear-gradient(180deg, #CE63B7 0%, #ED6283 100%), radial-gradient(100% 120% at 75% 0%, #A74600 0%, #000000 100%), linear-gradient(310deg, #0063D8 0%, #16009A 50%);
+    background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    height: 200vh; 
+    justify-content: flex-start;
+    width: 100vw;
+  } 
+  
+  main {
+    padding: 10rem;
+  }
+  
+  header {
+    align-items: space-between;
+    backdrop-filter: blur(8px);
+    display: flex;
+    height: 20vh;
+    width: 99vw;
+    align-items: center;
+    max-width: 99vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  p {
+    padding: 1rem 0;
+  }
+  
+  .main__box {
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 3.8rem;
+    margin: 10rem 4rem ;
+  }
+  
+  .box__title {
+    padding: 3rem 0;
+  }
+  
+  .header__title {
+    color: #ff0027;
+    font-size: 3rem;
+    padding: 4rem;
+  }
+  
+  .header__sub-title {
+    color: #ff0027;
+    font-size: 2rem;
+    max-width: 70%;
+    padding: 0 4rem 4rem 4rem;
+  }
+  
+  .main__social-nav {
+    align-items: center;
+    background-color: inherit;
+    display: flex;
+    margin: 0;
+    padding: 2rem 0;
+  }
+  
+  .nav__social {
+    font-size: 1rem;
+    margin: 0 1rem 0 0;
+    text-decoration: none; 
+  } 
+  
+  .social__icon {
+    height: 2.5rem;
+  }
+  
+  .box__grid {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    grid-auto-rows: minmax(12.5rem, auto);
+  }
+  
+  .grid__tecnology {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .grid__tecnology-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+  }
+  
+  
+  
